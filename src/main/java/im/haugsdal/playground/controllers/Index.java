@@ -11,13 +11,12 @@ import java.util.Map;
 public class Index {
 
     // inject via application.properties
-    @Value("${welcome.message:test}")
+    //@Value("${welcome.message:test}")
     private String message = "Hello Everyone!";
 
     @RequestMapping("/")
     public String index(Map<String, Object> model) {
-
-        //model.put("message", this.message);
+        model.put("message", this.message);
         return "index";
     }
 }
