@@ -12,7 +12,7 @@ public class Index {
 
     // inject via application.properties
     //@Value("${welcome.message:test}")
-    private String message = "Hello Everyone!";
+    private String message = "Hallo Camilla!";
 
     @RequestMapping("/")
     public String index(Map<String, Object> model) {
