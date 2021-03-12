@@ -1,3 +1,11 @@
 # playground
 
-Automatically deployed at http://13.69.141.42:8080
+https://spring.io/guides/gs/spring-boot/
+##Description 
+java + spring boot webapp
+
+testet også maven ssh wagon, deploy til azure vm (med pre installert maven + java)
+
+
+##Instructions
+
