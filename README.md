@@ -9,3 +9,14 @@ testet også maven ssh wagon, deploy til azure vm (med pre installert maven + ja
 
 ##Instructions
 
+To run tests:
+
+```
+mvn test
+```
+
+To start a web application on port 8080:
+
+```
+mvn spring-boot:run
+```
